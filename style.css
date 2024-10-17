@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    background:linear-gradient(#000000bb,#0c0c0c99),url('images/task\ .jpeg');
+    height:85vh;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.container{
+	width:80%;
+    margin:auto;
+    position: relative; 
+    top:170px;
+}
+#banner h1{
+    font-size: 45px;
+    font-weight: bold;
+    color:aliceblue;
+    text-align: center;
+    margin:0;  
+}
+#banner h5{
+    font-size:20px;
+    font-weight: bold;
+    color:aliceblue;
+    text-align: center;
+    margin:0;
+    line-height: 45px;
+}
+.video{
+    color:white;
+   position: relative;
+   top:30%; 
+}
+.icon{
+    display: inline-flex;
+    width: 40px;
+	height:40px;
+	border-radius:100%;
+	border:4px solid #01985f;
+    background-color: #01985f;
+	align-items:center;
+    justify-content: center;
+    margin-left: 48%;
+    animation: pulse;
+}
